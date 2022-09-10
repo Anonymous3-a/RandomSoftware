@@ -1,0 +1,11 @@
+#!/bin/bash
+
+sudo apt update -y
+sudo apt --fix-broken install -y
+sudo apt full-upgrade -y
+sudo apt autoremove -y
+# Run one more time:
+sudo apt update -y
+sudo apt --fix-broken install -y
+sudo apt full-upgrade -y
+sudo apt autoremove -y
